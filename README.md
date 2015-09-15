@@ -95,7 +95,7 @@ Inside `pry` you can "hang a dot" and hit `tab` twice to see available methods:
 
 Another handy trick is to load your `drills.rb` file so that you can manually test your functions. This is similar to what we did in node when we used "require" to import a file.
 
-Make sure you're in the correct directory, then in `irb` type:  
+Make sure you're in the correct directory, then in `pry` type:  
 ``` ruby
     2.1.2 :002 > load "./drills.rb"
     2.1.2 :003 > say_hello
