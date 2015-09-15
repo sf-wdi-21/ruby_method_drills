@@ -70,14 +70,14 @@ You should see roughly the following output:
 
 ### Ruby Tips
 
-When in doubt, test your code in the ruby REPL (`irb`, interactive ruby):  
+When in doubt, test your code in the ruby REPL (`pry`):  
 ``` bash
-    irb
+    pry
 ```
 
 (This is similar to running the node repl by typing `node`).
 
-Inside `irb` you can "hang a dot" and hit `tab` twice to see available methods:
+Inside `pry` you can "hang a dot" and hit `tab` twice to see available methods:
 
 ``` ruby
     2.1.2 :001 > "string". # hang a dot and hit tab twice!
